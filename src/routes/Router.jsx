@@ -3,6 +3,7 @@ import Layout from "../layout/Layout";
 import Login from "../Page/Login/Login";
 import Register from "../Page/Register/Register";
 import Home from "../Page/Home/Home";
+import Jobdetails from "../Page/JobDetails/Jobdetails";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path : "/job/:id",
-        element : 
+        element : <Jobdetails></Jobdetails>
       }
     ],
   },

@@ -9,9 +9,8 @@ function Tabcategory() {
     axios
       .get(`${import.meta.env.VITE_API_URL}/jobs`)
       .then((res) => setData(res.data));
-  },[]);
-console.log(data)
-
+  }, []);
+  console.log(data);
 
   return (
     <div className="my-10 flex justify-center flex-col items-center">
